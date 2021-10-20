@@ -1,0 +1,16 @@
+.carousel-inner {
+  margin: 20px 20px 20px 25%;
+  width: 100em ;
+}
+
+.title1 {
+  color: rgb(92, 207, 202);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.conteudo {
+  color: #fff;
+  margin: 20px 30px 50px 50px;
+  text-align: justify;
+}
