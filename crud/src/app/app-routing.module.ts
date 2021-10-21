@@ -1,13 +1,21 @@
+import { CreateSolucaoComponent } from './components/solucoes/create-solucao/create-solucao.component';
+import { SaibaMais3Component } from './components/saiba-mais3/saiba-mais3.component';
+import { SaibaMais2Component } from './components/saiba-mais2/saiba-mais2.component';
 import { SolucoesComponent } from './components/solucoes/solucoes.component';
 import { QuestoesComponent } from './components/questoes/questoes.component';
 import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SaibaMais1Component } from './components/saiba-mais1/saiba-mais1.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent},
   { path: 'questoes', component: QuestoesComponent},
-  { path: 'solucoes', component: SolucoesComponent}
+  { path: 'solucoes', component: SolucoesComponent},
+  { path: 'saiba-mais', component: SaibaMais1Component},
+  { path: 'saiba-mais2', component: SaibaMais2Component},
+  { path: 'saiba-mais3', component: SaibaMais3Component},
+  { path: 'create-solucao', component: CreateSolucaoComponent}
 ];
 
 @NgModule({

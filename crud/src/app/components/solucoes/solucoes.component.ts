@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-solucoes',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SolucoesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  navigateToSolutionCreate(): void {
+   this.router.navigate (['create-solucao'])
   }
 
 }

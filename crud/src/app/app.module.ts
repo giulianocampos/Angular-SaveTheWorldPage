@@ -7,6 +7,12 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { QuestoesComponent } from './components/questoes/questoes.component';
 import { SolucoesComponent } from './components/solucoes/solucoes.component';
+import { RouterModule } from '@angular/router';
+
+import { SaibaMais1Component } from './components/saiba-mais1/saiba-mais1.component';
+import { SaibaMais2Component } from './components/saiba-mais2/saiba-mais2.component';
+import { SaibaMais3Component } from './components/saiba-mais3/saiba-mais3.component';
+import { CreateSolucaoComponent } from './components/solucoes/create-solucao/create-solucao.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +20,16 @@ import { SolucoesComponent } from './components/solucoes/solucoes.component';
     HeaderComponent,
     HomeComponent,
     QuestoesComponent,
-    SolucoesComponent
+    SolucoesComponent,
+    SaibaMais1Component,
+    SaibaMais2Component,
+    SaibaMais3Component,
+    CreateSolucaoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
