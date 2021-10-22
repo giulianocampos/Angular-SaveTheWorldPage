@@ -13,8 +13,8 @@ export class SolucoesComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  navigateToSolutionCreate(): void {
-   this.router.navigate (['create-solucao'])
+  SolutionCreate(): void {
+   this.router.navigate(['create'])
   }
 
 }
