@@ -21,6 +21,7 @@ import { SaibaMais1Component } from './components/saiba-mais1/saiba-mais1.compon
 import { SaibaMais2Component } from './components/saiba-mais2/saiba-mais2.component';
 import { SaibaMais3Component } from './components/saiba-mais3/saiba-mais3.component';
 import { CreateSolucaoComponent } from './components/solucoes/create-solucao/create-solucao.component';
+import { ReadSolucaoComponent } from './components/solucoes/read-solucao/read-solucao.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CreateSolucaoComponent } from './components/solucoes/create-solucao/cre
     SaibaMais1Component,
     SaibaMais2Component,
     SaibaMais3Component,
-    CreateSolucaoComponent
+    CreateSolucaoComponent,
+    ReadSolucaoComponent
   ],
   imports: [
     BrowserModule,

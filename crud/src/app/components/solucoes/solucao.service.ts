@@ -27,4 +27,8 @@ export class SolucaoService {
     return this.http.post<Solution>(this.baseUrl, solution)
   }
 
+  read(): Observable<Solution[]> {
+    return this.http.get<Solution[]>(this.baseUrl)
+  }
+
 }

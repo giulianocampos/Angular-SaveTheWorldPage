@@ -1,6 +1,6 @@
 export interface Solution
  {
-   id?: number
-   name: string
-   explicacao: string
+   id?: number;
+   name: string;
+   explicacao: string;
  }

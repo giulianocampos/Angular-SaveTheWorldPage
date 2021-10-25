@@ -10,9 +10,10 @@
   color: rgb(92, 207, 202);
 }
 
-.buttonAdd {
+button {
   margin-top: 20px;
   margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .conteudo {
