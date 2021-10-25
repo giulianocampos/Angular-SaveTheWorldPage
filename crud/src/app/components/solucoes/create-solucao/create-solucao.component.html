@@ -1,10 +1,30 @@
+<mat-card>
 
-<button
-  type="button" class="btn btn-info" (click)="createSolucao()">
-  Salvar
-</button>
+  <mat-card-title>
+    Nova Solução
+  </mat-card-title>
 
-<button
-  type="button" class="btn btn-info" (click)="cancel()">
-  Cancelar
-</button>
+  <form action="">
+    <mat-form-field>
+      <input matInput placeholder="Nome da Solução"
+      [(ngModel)]="solution.name" name="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Breve Explicação"
+      [(ngModel)]="solution.explicacao" name="explicacao">
+    </mat-form-field>
+  </form>
+
+
+  <button
+      type="button" class="btn btn-info" (click)="createSolucao()">
+      Salvar
+  </button>
+
+  <button
+    type="button" class="btn btn-danger" (click)="cancel()">
+    Cancelar
+   </button>
+
+</mat-card>
