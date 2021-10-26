@@ -22,6 +22,10 @@ import { SaibaMais2Component } from './components/saiba-mais2/saiba-mais2.compon
 import { SaibaMais3Component } from './components/saiba-mais3/saiba-mais3.component';
 import { CreateSolucaoComponent } from './components/solucoes/create-solucao/create-solucao.component';
 import { ReadSolucaoComponent } from './components/solucoes/read-solucao/read-solucao.component';
+import { SchematicsSolucaoComponent } from './components/solucoes/schematics-solucao/schematics-solucao.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
@@ -34,7 +38,8 @@ import { ReadSolucaoComponent } from './components/solucoes/read-solucao/read-so
     SaibaMais2Component,
     SaibaMais3Component,
     CreateSolucaoComponent,
-    ReadSolucaoComponent
+    ReadSolucaoComponent,
+    SchematicsSolucaoComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +51,10 @@ import { ReadSolucaoComponent } from './components/solucoes/read-solucao/read-so
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
