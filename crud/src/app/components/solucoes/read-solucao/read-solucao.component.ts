@@ -12,7 +12,7 @@ export class ReadSolucaoComponent implements OnInit {
 
 
   solution: Solution[];
-  displayedColumns = ['id', 'name'];
+  displayedColumns = ['id', 'name', 'action'];
 
   constructor(private solucaoService: SolucaoService) { }
 

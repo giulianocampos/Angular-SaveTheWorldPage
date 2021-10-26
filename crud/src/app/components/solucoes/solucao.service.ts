@@ -31,4 +31,14 @@ export class SolucaoService {
     return this.http.get<Solution[]>(this.baseUrl)
   }
 
+  readById(id: number): Observable<Solution> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.get<Solution>(url)
+  }
+
+  update(solution: Solution): Observable<Solution> {
+    const url = `${this.baseUrl}/${solution.id}`
+    return this.http.put<Solution>(url, solution)
+  }
+
 }
