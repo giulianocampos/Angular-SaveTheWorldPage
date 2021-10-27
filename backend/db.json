@@ -9,19 +9,9 @@
       "name": "Utilização de Energias Renováveis"
     },
     {
-      "name": "Veio do formulário",
-      "explicacao": "apenas um pequeno texto para testar os inputs dos determinados campos de solução e explicação.",
-      "id": 3
-    },
-    {
       "name": "Biocombustíveis",
       "explicacao": "Utilização de combustíveis renováveis a fim de diminuir o uso dos fuels a base de energia fóssil",
       "id": 4
-    },
-    {
-      "name": "Teste 2",
-      "explicacao": "Esta é uma explicação de teste",
-      "id": 5
     }
   ]
 }

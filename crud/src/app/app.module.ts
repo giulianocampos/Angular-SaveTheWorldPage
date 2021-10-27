@@ -27,6 +27,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { UpdateSolucaoComponent } from './components/solucoes/update-solucao/update-solucao.component';
+import { DeleteSolucaoComponent } from './components/solucoes/delete-solucao/delete-solucao.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { UpdateSolucaoComponent } from './components/solucoes/update-solucao/upd
     CreateSolucaoComponent,
     ReadSolucaoComponent,
     SchematicsSolucaoComponent,
-    UpdateSolucaoComponent
+    UpdateSolucaoComponent,
+    DeleteSolucaoComponent
   ],
   imports: [
     BrowserModule,

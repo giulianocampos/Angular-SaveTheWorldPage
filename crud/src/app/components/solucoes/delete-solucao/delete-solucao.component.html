@@ -1,0 +1,32 @@
+<mat-card>
+
+  <mat-card-title>
+   Excluir Produto
+  </mat-card-title>
+
+  <form action="">
+    <mat-form-field>
+      <input matInput placeholder="Nome da Solução"
+      [value]="solution.name" name="name" disabled>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Breve Explicação"
+      [value]="solution.explicacao" name="explicacao" disabled>
+    </mat-form-field>
+  </form>
+
+
+  <button
+      type="button" class="btn btn-danger" (click)="deleteSolucao()">
+      Excluir
+  </button>
+
+  <button
+    type="button" class="btn btn-info" (click)="cancel()">
+    Cancelar
+   </button>
+
+</mat-card>
+
+

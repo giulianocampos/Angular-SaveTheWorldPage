@@ -40,5 +40,9 @@ export class SolucaoService {
     const url = `${this.baseUrl}/${solution.id}`
     return this.http.put<Solution>(url, solution)
   }
+  delete(id: number): Observable<Solution>{
+    const url= `${this.baseUrl}/${id}`;
+    return this.http.delete<Solution>(url);
+  }
 
 }
