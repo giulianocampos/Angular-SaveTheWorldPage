@@ -1,3 +1,4 @@
+import { UpdateSolucaoComponent } from './components/solucoes/update-solucao/update-solucao.component';
 import { CreateSolucaoComponent } from './components/solucoes/create-solucao/create-solucao.component';
 import { SaibaMais3Component } from './components/saiba-mais3/saiba-mais3.component';
 import { SaibaMais2Component } from './components/saiba-mais2/saiba-mais2.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'saiba-mais', component: SaibaMais1Component},
   { path: 'saiba-mais2', component: SaibaMais2Component},
   { path: 'saiba-mais3', component: SaibaMais3Component},
-  { path: 'create', component: CreateSolucaoComponent}
+  { path: 'solucoes/create', component: CreateSolucaoComponent},
+  { path: 'solucoes/update/:id', component: UpdateSolucaoComponent}
 ];
 
 @NgModule({

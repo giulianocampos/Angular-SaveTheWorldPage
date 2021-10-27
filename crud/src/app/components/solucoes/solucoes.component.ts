@@ -14,7 +14,7 @@ export class SolucoesComponent implements OnInit {
   }
 
   SolutionCreate(): void {
-   this.router.navigate(['create'])
+   this.router.navigate(['solucoes/create'])
   }
 
 }

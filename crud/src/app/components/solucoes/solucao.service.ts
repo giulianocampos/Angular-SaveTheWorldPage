@@ -31,7 +31,7 @@ export class SolucaoService {
     return this.http.get<Solution[]>(this.baseUrl)
   }
 
-  readById(id: number): Observable<Solution> {
+  readById(id: string): Observable<Solution> {
     const url = `${this.baseUrl}/${id}`
     return this.http.get<Solution>(url)
   }

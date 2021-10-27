@@ -1,0 +1,31 @@
+<mat-card>
+
+  <mat-card-title>
+   Alterar Produto
+  </mat-card-title>
+
+  <form action="">
+    <mat-form-field>
+      <input matInput placeholder="Nome da Solução"
+      [(ngModel)]="solution.name" name="name">
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput placeholder="Breve Explicação"
+      [(ngModel)]="solution.explicacao" name="explicacao">
+    </mat-form-field>
+  </form>
+
+
+  <button
+      type="button" class="btn btn-info" (click)="updateSolucao()">
+      Salvar
+  </button>
+
+  <button
+    type="button" class="btn btn-danger" (click)="cancel()">
+    Cancelar
+   </button>
+
+</mat-card>
+
